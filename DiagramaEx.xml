@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="estiloxml.css"?>
+<Karate  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="DiagramaEx.xsd">
+    <Aspirantes>     
+        <id_asp>001</id_asp>
+        <nom>Carles</nom>
+        <ap>Puigdemont</ap>
+        <DNI>78455623F</DNI>
+        <tel>978565565</tel>
+        <direccion>C/Valmesque Callis</direccion>
+        <naciemiento>1962-12-29</naciemiento>
+        <Dan>3r</Dan>
+        <cinturon>negro</cinturon>
+        <Fecha_ingreso_Dan>1971-03-05</Fecha_ingreso_Dan>
+        <Foto>Puixi.png</Foto>
+        <Tiempo_Dan_Anterior>1969-03-06</Tiempo_Dan_Anterior>
+        <FotoDni>Puixi.png</FotoDni>
+        <FotoGrados>Gradomedio.png</FotoGrados>
+    </Aspirantes> 
+    <Jueces>     
+        <id_juez>002</id_juez>
+        <nom>Adolfo</nom>
+        <ap>Domingez</ap>
+        <DiplomaJuez>true</DiplomaJuez>
+    </Jueces> 
+
+</Karate>
