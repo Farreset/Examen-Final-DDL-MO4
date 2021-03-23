@@ -122,7 +122,7 @@
         <xsd:complexContent>
             <xsd:restriction base="xsd:anyType">
                 <xsd:sequence>
-                    <xsd:element name="id_asp" type="xsd:integer"/>
+                    <xsd:element name="id_asp" type="codigo"/>
                     <xsd:element name="SuspPar" type="xsd:boolean"/>
                     <xsd:element name="SuspTot" type="xsd:boolean"/>
                     <xsd:element name="SuspSegFase" type="xsd:boolean"/>
@@ -149,14 +149,119 @@
     <xsd:complexType name="AbonarCuota">
         <xsd:simpleContent>
             <xsd:restriction base="xsd:anyType">
-               
-                    <xsd:element name="id_asp" type="xsd:integer"/>
-                    <xsd:element name="edad_asp" type="xsd:integer"/>
-                    <xsd:element name="LicenciaAct" type="xsd:boolean"/>
-                    <xsd:element name="TrabajoEscrito" type="xsd:boolean"/>
-
-            </xsd:restriction>
+                     <xsd:element name="id_asp" type="xsd:integer"/>
+                   </xsd:restriction>
         </xsd:simpleContent>
     </xsd:complexType>
 <!--AbonarCuota-->
+<!--CovalidacionGrados-->
+    <xsd:complexType name="CovalidacionGrados">
+        <xsd:simpleContent>
+            <xsd:restriction base="xsd:anyType">
+                     <xsd:element name="id_asp" type="xsd:integer"/>
+                   </xsd:restriction>
+        </xsd:simpleContent>
+    </xsd:complexType>
+<!--CovalidacionGrados-->
+<!--RequisitosAspirante-->
+    <xsd:complexType name="RequisitosAspirante">
+        <xsd:simpleContent>
+            <xsd:restriction base="xsd:anyType">
+                     <xsd:element name="Sol3Dan" type="xsd:boolean"/>
+                     <xsd:element name="4DanSub" type="xsd:boolean"/>
+                   </xsd:restriction>
+        </xsd:simpleContent>
+    </xsd:complexType>
+<!--RequisitosAspirante-->
+<!--DispensaMedica-->
+    <xsd:complexType name="DispensaMedica">
+        <xsd:simpleContent>
+            <xsd:restriction base="xsd:anyType">
+                     <xsd:element name="id_asp" type="xsd:integer"/>
+                   </xsd:restriction>
+        </xsd:simpleContent>
+    </xsd:complexType>
+<!--DispensaMedica-->
+<!--CriterioValoracion-->
+    <xsd:complexType name="CriterioValoracion">
+        <xsd:simpleContent>
+            <xsd:restriction base="xsd:anyType">
+                     <xsd:element name="indumentaria" type="xsd:integer"/>
+                      <xsd:element name="AseoPersonal" type="xsd:integer"/>
+                       <xsd:element name="EjTecnica" type="xsd:integer"/>
+                        <xsd:element name="Valores" type="xsd:integer"/>
+                         <xsd:element name="Resp" type="xsd:integer"/>
+                   </xsd:restriction>
+        </xsd:simpleContent>
+    </xsd:complexType>
+<!--CriterioValoracion-->
+<!--Jueces-->
+    <xsd:complexType name="Jueces">
+        <xsd:simpleContent>
+            <xsd:restriction base="xsd:anyType">
+                     <xsd:element name="id_juez" type="xsd:integer"/>
+                      <xsd:element name="nom" type="xsd:string"/>
+                       <xsd:element name="ap" type="xsd:string"/>
+                        <xsd:element name="DiplomaJuez" type="xsd:boolean"/>
+                   </xsd:restriction>
+        </xsd:simpleContent>
+    </xsd:complexType>
+<!--Jueces-->
+<!--Tribunal-->
+    <xsd:complexType name="Tribunal">
+        <xsd:simpleContent>
+            <xsd:restriction base="xsd:anyType">
+                     <xsd:element name="num_juez" type="xsd:integer"/>
+                      <xsd:element name="calificacion_final" type="xsd:integer"/>
+                   </xsd:restriction>
+        </xsd:simpleContent>
+    </xsd:complexType>
+<!--Tribunal-->
+<!--Aspirantes-->
+    <xsd:complexType name="Aspirantes">
+        <xsd:complexContent>
+            <xsd:restriction base="xsd:anyType">
+                <xsd:sequence>
+                    <xsd:element name="id_asp" type="xsd:integer"/>
+                    <xsd:element name="nom" type="xsd:string"/> 
+                    <xsd:element name="ap" type="xsd:string"/>
+                    <xsd:element name="DNI" type="xsd:string"/>
+                    <xsd:element name="tel" type="xsd:string"/>
+                    <xsd:element name="direccion" type="xsd:string"/>
+                    <xsd:element name="naciemiento" type="xsd:string"/>
+                    <xsd:element name="Dan" type="xsd:string"/>
+                    <xsd:element name="cinturon"  type="xsd:string"/>
+                    <xsd:element name="Fecha_ingreso_Dan" type="xsd:date"/>
+                    <xsd:element name="Foto"  type="xsd:string"/>
+                    <xsd:element name="Tiempo_Dan_Anterior" type="xsd:string"/>
+                    <xsd:element name="FotoDni" type="xsd:string"/>
+                    <xsd:element name="FotoGrados" type="xsd:string"/>
+                </xsd:sequence>
+            </xsd:restriction>
+        </xsd:complexContent>
+    </xsd:complexType>
+<!--Aspirantes-->
+<!--Tribunal-->
+    <xsd:complexType name="Examen">
+        <xsd:simpleContent>
+            <xsd:restriction base="xsd:anyType">
+                     <xsd:element name="id_asp" type="xsd:integer"/>
+                    </xsd:restriction>
+        </xsd:simpleContent>
+    </xsd:complexType>
+<!--Tribunal-->
+<!--Creacion de restriciones en los datos-->
+<xsd:simpleType name="id_asp">
+    <xsd:restriction base="xsd:string">
+      <xsd:pattern value="[0-9]{3}"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+
+<xsd:simpleType name="id_juez">
+    <xsd:restriction base="xsd:string">
+      <xsd:pattern value="[0-9]{3}"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+
+<!--Creacion de restriciones en los datos-->
 </xsd:schema>
