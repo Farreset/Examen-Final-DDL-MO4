@@ -24,5 +24,75 @@ xsi:noNamespaceSchemaLocation="DiagramaEx.xsd">
         <ap>Domingez</ap>
         <DiplomaJuez>true</DiplomaJuez>
     </Jueces> 
+    <Tribunal>    
+        <num_juez>3</num_juez>
+        <calificacion_final>6.5</calificacion_final>
+    </Tribunal> 
+    <Dan3r>     
+        <tecnica_def>002</tecnica_def>
+        <kata>Adolfo</kata>
+        <kumite>true</kumite>
+        <campeonatos>true</campeonatos>
+    </Dan3r> 
+    <CintDan1r>     
+        <tecnica_direct>002</tecnica_direct>
+        <tecnica_circ>Adolfo</tecnica_circ>
+        <tecnica_pierna>Domingez</tecnica_pierna>
+        <teoria>true</teoria>
+        <kata>Adolfo</kata>
+        <kumite>true</kumite>
+    </CintDan1r> 
+    <CintDan2r>     
+        <tecnica_def>002</tecnica_def>
+        <tecnica_pierna>Adolfo</tecnica_pierna>
+        <tecnica_directIndirect>Domingez</tecnica_directIndirect>
+        <teoria>true</teoria>
+        <kata>Adolfo</kata>
+        <kumite>true</kumite>
+        <aplic_tecnica>true</aplic_tecnica>
+    </CintDan2r> 
+    <CintDan3r>     
+        <id_juez>002</id_juez>
+        <nom>Adolfo</nom>
+        <ap>Domingez</ap>
+        <DiplomaJuez>true</DiplomaJuez>
+    </CintDan3r> 
+    <CintDan4r>     
+        <id_juez>002</id_juez>
+        <nom>Adolfo</nom>
+        <ap>Domingez</ap>
+        <DiplomaJuez>true</DiplomaJuez>
+    </CintDan4r> 
+    <CintDan5r>     
+        <id_juez>002</id_juez>
+        <nom>Adolfo</nom>
+        <ap>Domingez</ap>
+        <DiplomaJuez>true</DiplomaJuez>
+    </CintDan5r> 
+    <SuspExam>     
+        <id_juez>002</id_juez>
+        <nom>Adolfo</nom>
+        <ap>Domingez</ap>
+        <DiplomaJuez>true</DiplomaJuez>
+    </SuspExam> 
+    <Meritos>     
+        <id_juez>002</id_juez>
+        <nom>Adolfo</nom>
+        <ap>Domingez</ap>
+        <DiplomaJuez>true</DiplomaJuez>
+    </Meritos> 
+    <Requisitos>     
+        <id_juez>002</id_juez>
+        <nom>Adolfo</nom>
+        <ap>Domingez</ap>
+        <DiplomaJuez>true</DiplomaJuez>
+    </Requisitos> 
+    <Criterios>     
+        <id_juez>002</id_juez>
+        <nom>Adolfo</nom>
+        <ap>Domingez</ap>
+        <DiplomaJuez>true</DiplomaJuez>
+    </Criterios> 
+
 
 </Karate>
