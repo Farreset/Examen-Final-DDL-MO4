@@ -1,0 +1,219 @@
+Aspirantes {
+display: table;
+border-spacing: 5px;
+}
+
+id_asp,Aspirantes nom ,Aspirantes ap ,DNI,
+tel,direccion,naciemiento,Dan,cinturon
+,Fecha_ingreso_Dan,Foto,Tiempo_Dan_Anterior,FotoDni,FotoGrados {
+font-size: xx-large;
+padding:20px;
+display: table-cell;
+border: black 1px solid;
+position: relative;
+background-color: rgb(66, 197, 14);
+font-size: 120%;
+}
+Aspirantes:before { content: "Informacion del aspirante: "; 
+   font-size: xx-large;
+   display: table;
+   border-spacing: 5px;
+   border: black 1px solid;
+   background-color: rgb(66, 197, 14);
+}
+
+Jueces {
+display: table;
+border-spacing: 15px;
+border: black 1px solid;
+display: block;
+
+}
+
+id_juez,Jueces nom,Jueces ap,DiplomaJuez {
+font-size: xx-large;
+padding: 10px;
+display: table-cell;
+border: black 1px solid;
+position: relative;
+display: block;
+background-color: yellow;
+font-size: 120%;
+}
+Jueces:before { content: "Informacion del juez: "; 
+   font-size: xx-large;
+   display: table;
+   border-spacing: 5px;
+   border: black 1px solid;
+   background-color: yellow;
+}
+Tribunal {
+display: table;
+border-spacing: 15px;
+border: black 1px solid;
+display: block;
+
+}
+
+num_juez,calificacion_final  {
+font-size: xx-large;
+padding: 10px;
+display: table-cell;
+border: black 1px solid;
+position: relative;
+display: block;
+background-color: orange;
+font-size: 120%;
+
+}
+Tribunal:before { content: "Opinion del tribunal: "; 
+   font-size: xx-large;
+   display: table;
+   border-spacing: 5px;
+   border: black 1px solid;
+   background-color: orange;
+}
+num_juez:before { content: "Numero del juez: "; }
+calificacion_final:before { content: "Calificacion: "; }
+Examen:before { content: "Informacion de los cursos del aspirante: "; 
+   display: table;
+   border-spacing: 5px;
+   border: black 1px solid;
+   font-size: xx-large;
+   background-color: #00c3ff;
+}
+Dan3r:before { content: "Informacion de Hasta 3er Dan "; 
+   display: table;
+   border-spacing: 5px;
+   border: black 1px solid;
+   font-size: xx-large;
+   background-color: #00c3ff;
+}
+CintNegro:before { content: "Informacion de Cinturon Negro "; 
+   display: table;
+   border-spacing: 5px;
+   border: black 1px solid;
+   font-size: xx-large;
+   background-color: #00c3ff;
+}
+CintDan1r:before { content: "Informacion de Cinturon Negro Primer Dan "; 
+   display: table;
+   border-spacing: 5px;
+   border: black 1px solid;
+   font-size: xx-large;
+   background-color: #00c3ff;
+}
+CintDan2r:before { content: "Informacion de Cinturon Negro Segundo Dan "; 
+   display: table;
+   border-spacing: 5px;
+   border: black 1px solid;
+   font-size: xx-large;
+   background-color: #00c3ff;
+}
+CintDan3r:before { content: "Informacion de Cinturon Negro Tercer Dan "; 
+   display: table;
+   border-spacing: 5px;
+   border: black 1px solid;
+   font-size: xx-large;
+   background-color: #00c3ff;
+}
+CintDan4r:before { content: "Informacion de Cinturon Negro Cuarto Dan "; 
+   display: table;
+   border-spacing: 5px;
+   border: black 1px solid;
+   font-size: xx-large;
+   background-color: #00c3ff;
+}
+CintDan5r:before { content: "Informacion de Quinto Dan y Superior "; 
+   display: table;
+   border-spacing: 5px;
+   border: black 1px solid;
+   font-size: xx-large;
+   background-color: #00c3ff;
+}
+SuspExam:before { content: "Informacion de Examenes "; 
+   display: table;
+   border-spacing: 5px;
+   border: black 1px solid;
+   font-size: xx-large;
+   background-color: #00c3ff;
+}
+Examen:before {
+   display: table;
+   border-spacing: 15px;
+   border: black 1px solid;
+   display: block;  
+}
+indumentaria,AseoPersonal,EjTecnica,Valores,Resp,tecnica_def,kata,kumite,campeonatos
+,tecnica_direct,tecnica_circ,tecnica_pierna
+{
+   font-size: xx-large;
+   padding: 10px;
+   display: table-cell;
+   border: black 1px solid;
+   position: relative;
+   display: block;
+   background-color: #00c3ff;
+   font-size: 120%;
+}   
+tecnicas,aplic_tecnica,teoria,variaciones_tecnica,Coloquio,tecnica_directIndirect,tecnica_base,tecnica_comb,tecnica_indirectcirc,aplicaciones,apli_tecnica,demo_libre
+{
+   font-size: xx-large;
+   padding: 10px;
+   display: table-cell;
+   border: black 1px solid;
+   position: relative;
+   display: block;
+   background-color: #3cff0b;
+   font-size: 120%;
+   
+}
+
+SuspExam:before { content: "Examen: "; 
+   display: table;
+   border-spacing: 5px;
+   border: black 1px solid;
+   font-size: xx-large;
+   background-color: #00c3ff;
+}
+id_asp,SuspSegFase{
+   font-size: xx-large;
+   padding: 10px;
+   display: table-cell;
+   border: black 1px solid;
+   position: relative;
+   display: block;
+   background-color: #3cff0b;
+   font-size: 120%;  
+}
+SuspPar,SuspTot{
+   font-size: xx-large;
+   padding: 10px;
+   display: table-cell;
+   border: black 1px solid;
+   position: relative;
+   display: block;
+   background-color: #e73a2d;
+   font-size: 120%;    
+}
+
+id_asp,edad_asp,LicenciaAct,TrabajoEscrito{
+   font-size: xx-large;
+   padding: 10px;
+   display: table-cell;
+   border: black 1px solid;
+   position: relative;
+   display: block;
+   background-color: #3cff0b;
+   font-size: 120%;  
+}
+Sol3Dan,DanSub4rt{
+   font-size: xx-large;
+   padding: 10px;
+   display: table-cell;
+   border: black 1px solid;
+   position: relative;
+   display: block;
+   background-color: #3cff0b;
+   font-size: 120%;  
+}
